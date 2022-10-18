@@ -1,0 +1,150 @@
+.delivery-section {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.delivery-box {
+    margin-top: 150px;
+    
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 50px;
+}
+
+.title-for-delivery {
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.international-delivery {
+    margin-top: 50px;
+}
+
+.int-delivery-link {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.number-tracker {
+    font-size: 12px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.international-delivery-1 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto',Arial,sans-serif;
+    margin-top: 50px;
+}
+
+.title-for-int-del {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    max-width: 800px;
+}
+
+.title-for-int-del-1 {
+    margin-top: 50px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+
+.title-for-int-del-2 {
+    margin-top: 30px;
+
+    font-size: 12px;
+    font-weight: 400px;
+    font-family: 'Roboto',Arial,sans-serif;
+    max-width: 800px;
+}
+
+.Payment_and_return {
+    margin-top: 80px;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Arial";
+
+}
+
+.Bank_card {
+    margin-top: 50px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+
+.bank_card-box {
+    margin-top: 50px;
+}
+
+.bank_card_link {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    max-width: 800px;
+}
+
+.apple_google {
+    margin-top: 50px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.title_apple_google {
+    margin-top: 30px;
+
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    max-width: 800px;
+}
+
+.Return_items {
+    margin-top: 70px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+
+}
+
+.Return_items_box {
+    margin-top: 40px;
+    max-width: 800px;
+
+}
+
+.Return_items_title {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+
+.Policity {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+
+.Offer_agreements {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    font-faMILY: "Arial";
+}

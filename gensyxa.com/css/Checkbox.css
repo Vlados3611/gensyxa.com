@@ -1,0 +1,958 @@
+.checkbox-section {
+    width: 100%;
+    height: auto;
+}
+
+#toggle {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 0px;
+}
+
+.button-for-checkbox {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox {
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    transition: 0.4s ease;
+}
+
+.sub-title-for-checkbox-link {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle:checked ~ .sub-title-for-checkbox {
+    height: 180px;
+    visibility: visible;
+}
+
+#toggle-1 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-1 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-1 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-1 {
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    transition: 0.4s ease;
+}
+
+.sub-title-for-checkbox-link-1 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-1:checked ~ .sub-title-for-checkbox-1 {
+    height: 860px;
+    visibility: visible;
+}
+
+#toggle-2 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-2 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-2 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-2 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-2 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-2:checked ~ .sub-title-for-checkbox-2 {
+    height: 660px;
+    visibility: visible;
+}
+
+
+#toggle-3 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-3 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-3 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-3 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-3 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-3:checked ~ .sub-title-for-checkbox-3 {
+    height: 550px;
+    visibility: visible;
+}
+
+
+#toggle-4 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-4 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-4 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-4 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-4 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-4:checked ~ .sub-title-for-checkbox-4 {
+    height: 730px;
+    visibility: visible;
+}
+
+
+
+#toggle-5 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-5 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-5 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-5 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-5 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-5:checked ~ .sub-title-for-checkbox-5 {
+    height: 200px;
+    visibility: visible;
+}
+
+
+#toggle-6 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-6 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-6 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-6 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-6 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-6:checked ~ .sub-title-for-checkbox-6 {
+    height: 300px;
+    visibility: visible;
+}
+
+
+#toggle-7 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-7 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-7 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-7 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-7 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-7:checked ~ .sub-title-for-checkbox-7 {
+    height: 370px;
+    visibility: visible;
+}
+
+#toggle-8 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-8 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-8 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-8 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-8 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-8:checked ~ .sub-title-for-checkbox-8 {
+    height: 400px;
+    visibility: visible;
+}
+
+#toggle-9 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-9 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-9 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-9 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-9 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-9:checked ~ .sub-title-for-checkbox-9 {
+    height: 600px;
+    visibility: visible;
+}
+
+#toggle-10 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-10 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-10 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-10 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-10 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-10:checked ~ .sub-title-for-checkbox-10 {
+    height: 120px;
+    visibility: visible;
+}
+
+#toggle-11 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-11 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-11 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-11 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-11 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-11:checked ~ .sub-title-for-checkbox-11 {
+    height: 130px;
+    visibility: visible;
+}
+
+.checkbox-section-1 {
+    width: 100%;
+    height: auto;
+}
+
+#toggle-12 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-12 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-12 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-12 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-12 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-12:checked ~ .sub-title-for-checkbox-12 {
+    height: 420px;
+    visibility: visible;
+}
+
+#toggle-13 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-13 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-13 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-13 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-13 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-13:checked ~ .sub-title-for-checkbox-13 {
+    height: 110px;
+    visibility: visible;
+}
+
+#toggle-14 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-14 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-14 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-14 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-14 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-14:checked ~ .sub-title-for-checkbox-14 {
+    height: 460px;
+    visibility: visible;
+}
+
+#toggle-15 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-15 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-15 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-15 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-15 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-15:checked ~ .sub-title-for-checkbox-15 {
+    height: 50px;
+    visibility: visible;
+}
+
+#toggle-16 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-16 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-16 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-16 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-16 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-16:checked ~ .sub-title-for-checkbox-16 {
+    height: 180px;
+    visibility: visible;
+}
+
+#toggle-17 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-17 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-17 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-17 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-17 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-17:checked ~ .sub-title-for-checkbox-17 {
+    height: 180px;
+    visibility: visible;
+}
+
+
+#toggle-18 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-18 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-18 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-18 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-18 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-18:checked ~ .sub-title-for-checkbox-18 {
+    height: 480px;
+    visibility: visible;
+}
+
+#toggle-19 {
+    position: absolute;
+
+    height: 60px;
+    width: 80%;
+    cursor: pointer;
+    opacity: 0;
+    margin-top: 15px;
+}
+
+.button-for-checkbox-19 {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.title-for-button-checkbox-19 {
+    padding-top: 22px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.sub-title-for-checkbox-19 {
+    height: 0px;
+    visibility: hidden;
+    
+    transition: 0.4s ease;
+    overflow: hidden;
+}
+
+.sub-title-for-checkbox-link-19 {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto',Arial,sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+#toggle-19:checked ~ .sub-title-for-checkbox-19 {
+    height: 380px;
+    visibility: visible;
+}
+
+
+
+
